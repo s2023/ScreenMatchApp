@@ -13,7 +13,8 @@ Additionally, the program must allow the user to exit whenever they want.
 ## 3. Problem Solution
 To solve the problem, OOP (Object Oriented Programming) will be applied. What is object-oriented programming?
 
-![thumbnail](https://github.com/s2023/ScreenMatchApp/blob/main/assets/POOquees.png)
+![POOquees](https://github.com/s2023/ScreenMatchApp/assets/118579549/45dc4361-be9c-49e0-9a68-0cc0dfd4a917)
+
 
 Object-oriented programming (OOP) is a programming paradigm that uses "objects" to design applications and programs.
 Objects are entities that combine state (data) and behavior (functions or methods).
@@ -48,7 +49,7 @@ OOP facilitates the development and maintenance of complex software by allowing 
 ### 3.2. Composition on Inheritance
 Composition and inheritance are two techniques that allow developers to define new classes in OOP, but composition is often preferred over inheritance for several reasons:
 
-![22](https://github.com/s2023/ScreenMatchApp/blob/main/assets/POOHerencia.png)
+![POOHerencia](https://github.com/s2023/ScreenMatchApp/assets/118579549/ff2afdc3-2082-4509-bfcb-ca0d4cc15ba5)
 
 - **Minor Coupling**: Composition allows creating more flexible systems with objects that use functionalities of other objects through their interfaces without needing to inherit from them. This reduces coupling between classes.
 
