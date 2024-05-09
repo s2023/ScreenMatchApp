@@ -82,7 +82,7 @@ The application is developed in Java, using encapsulation to protect and organiz
 - **Classes `Movie` and `Series`**: They extend `Title` Class and add particularities such as director or duration per episode.
 - **Class `Principal`**: Manages interaction with the user and coordinates the functionality of the application.
     - **Method `ShowMenu`**: Facilitates the creation of forms for registering movies and series, using static methods and an internal class to handle basic media information. Encapsulates the form logic for registering movies and series, reading and validating different types of data.
-        - **Method `JOptionPane`**: Utility method to handle data input from the window dialog, encapsulating the form logic for registering movies and series.
+        - Method `JOptionPane`: Utility method to handle data input from the window dialog, encapsulating the form logic for registering movies and series-
 - **Class `Main`**: Starts the execution of the program.
 
 ## 8. Good Practices and Applied Methodologies
@@ -98,4 +98,5 @@ The application is developed in Java, using encapsulation to protect and organiz
 3. Follow the instructions on the windows to interact with the program.
 
 ## 10. Author
-Juan Sebastian Rivas Agudelo.
+Sebastian Rivas.
+
