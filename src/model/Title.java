@@ -1,4 +1,5 @@
 package model;
+import javax.swing.JOptionPane;
 
 public class Title {
 
@@ -50,13 +51,19 @@ public class Title {
     }
 
     public void showDataSheet(){
-        System.out.println("***********************************");
-        System.out.println("Title Data:");
-        System.out.println("Title: " + name + ".");
-        System.out.println("Release Year: " + releaseDate + ".");
-        System.out.println("Synopsis: " + synopsis + ".");
-        System.out.println("Duration in minutes: " + getdurationOnMinutes() + " minutes.");
-        System.out.println("***********************************\n");
+        String message = "****************Saved Title Data*******************\n" +
+                        "Title: " + name + ".\n" +
+                         "Release Year: " + releaseDate + ".\n" +
+                         "Synopsis: " + synopsis + ".\n" +
+                         "Duration in minutes: " + getdurationOnMinutes() + " minutes.";
+        JOptionPane.showMessageDialog(null, message);
+        //v1 System.out.println("***********************************");
+        //v1 System.out.println("Title Data:");
+        //v1 System.out.println("Title: " + name + ".");
+        //v1 System.out.println("Release Year: " + releaseDate + ".");
+        //v1 System.out.println("Synopsis: " + synopsis + ".");
+        //v1 System.out.println("Duration in minutes: " + getdurationOnMinutes() + " minutes.");
+        //v1 System.out.println("***********************************\n");
     }
 
 }
