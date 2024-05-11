@@ -57,13 +57,6 @@ public class Title {
                          "Synopsis: " + synopsis + ".\n" +
                          "Duration in minutes: " + getdurationOnMinutes() + " minutes.";
         JOptionPane.showMessageDialog(null, message);
-        //v1 System.out.println("***********************************");
-        //v1 System.out.println("Title Data:");
-        //v1 System.out.println("Title: " + name + ".");
-        //v1 System.out.println("Release Year: " + releaseDate + ".");
-        //v1 System.out.println("Synopsis: " + synopsis + ".");
-        //v1 System.out.println("Duration in minutes: " + getdurationOnMinutes() + " minutes.");
-        //v1 System.out.println("***********************************\n");
     }
 
 }
